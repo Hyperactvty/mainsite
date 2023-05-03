@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(34, 34, 34);
+}
+a {
+  text-decoration-color:"greenyellow";
+  color:"greenyellow";
+}
+/* Common Fields */
+.pageTitle {
+  color:white; /* Have referencing the themeprovider */
+  margin-left:"5vw";
+  font-size:"10vw"; 
+  text-align:"left"; 
+  margin-top:"10px";
+}
+
+/* End of Common Fields */
+.imageContainer {
+  background-color: rgb(35, 39, 42);
+}
+.imageContainer .image {
+    opacity: 0.3;
+    transition: .5s ease;
+  }
+.imageContainer:hover .image {
+  opacity: 1;
+}
+@keyframes featuredProject {
+  0%,
+  100%   {
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  50%  {opacity: 0.5;}
+}
+.imageContainer .featured {
+  animation-name: featuredProject;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.imageContainer:hover .featured {
+  animation-iteration-count: 1;
+}
+
+.fishingWeatherAlertFAB {
+  background-color: #0000FF;
+  width: 56px;
+  height: 40px;
+  overflow: hidden;
+  transition: width 250ms, background-color 250ms;
+}
+.fishingWeatherAlertFAB:hover {
+  background-color: #FFCCCC;
+  width: 100%;
+  /* width: 142px; */
+}
+
+#legal {
+  margin-top: 10px;
+  padding:2em 4em;
+  text-align: center;
+  /* position: fixed; */
+  /* bottom:0; */
+  /* display: inline-flex; */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

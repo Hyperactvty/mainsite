@@ -1,0 +1,22 @@
+{
+  "lakes": [
+    {
+      "regionID": "sunnyLake",
+      "name": "Sunny Lake",
+      "type": "lake",
+      "waterType": "saltwater",
+      "averageTemperature": "15C", 
+      "temperatureRange": [],
+      "maxDepth": "10m"
+    },
+    {
+      "regionID": "greatLake",
+      "name": "Great Lakes",
+      "type": "lake",
+      "waterType": "saltwater",
+      "averageTemperature": "15C", 
+      "temperatureRange": [],
+      "maxDepth": "10m"
+    }
+  ]
+}

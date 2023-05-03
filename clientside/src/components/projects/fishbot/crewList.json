@@ -1,0 +1,71 @@
+{
+  "crew": [
+    {
+      "crewID": "sunnyLake",
+      "name": "Terrence",
+      "type": "Human",
+      "job": "Guide",
+      "style": {
+        "hair": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "eyes": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "skin": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "shirt": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "pants": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "shoes": {
+          "preset": 0,
+          "colour": "#fff"
+        }
+      }, 
+      "abilities":[]
+    },
+    {
+      "crewID": "captainNemo",
+      "name": "Capitan Nemo",
+      "rarity": "Legendary",
+      "type": "Human",
+      "job": "Guide",
+      "style": {
+        "hair": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "eyes": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "skin": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "shirt": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "pants": {
+          "preset": 0,
+          "colour": "#fff"
+        },
+        "shoes": {
+          "preset": 0,
+          "colour": "#fff"
+        }
+      }, 
+      "abilities":[]
+    }
+  ]
+}
